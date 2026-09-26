@@ -1,10 +1,7 @@
-# загружаем нужные пакеты
 library(languageR)
 library(ggplot2)
 
-# загружаем датасет
 meta <- oldFrenchMeta
-
 # допишите ваш код ниже
 g <- meta |> 
   ggplot(aes(x = Topic, fill = Genre)) +
